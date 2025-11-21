@@ -1,0 +1,62 @@
+{
+	"Margherita Pizza": {
+		"price": 1299
+	},
+	"Pepperoni Pizza": {
+		"price": 1499
+	},
+	"Vegetarian Pizza": {
+		"price": 1399
+	},
+	"Caesar Salad": {
+		"price": 899
+	},
+	"Greek Salad": {
+		"price": 999
+	},
+	"Spaghetti Carbonara": {
+		"price": 1599
+	},
+	"Lasagna": {
+		"price": 1699
+	},
+	"Tiramisu": {
+		"price": 699
+	},
+	"Cheesecake": {
+		"price": 799
+	},
+	"Garlic Bread": {
+		"price": 499
+	},
+	"Bruschetta": {
+		"price": 599
+	},
+	"Chicken Wings": {
+		"price": 999
+	},
+	"Fish and Chips": {
+		"price": 1399
+	},
+	"Burger": {
+		"price": 1199
+	},
+	"Fries": {
+		"price": 399
+	},
+	"Onion Rings": {
+		"price": 499
+	},
+	"Cola": {
+		"price": 299
+	},
+	"Lemonade": {
+		"price": 299
+	},
+	"Coffee": {
+		"price": 349
+	},
+	"Tea": {
+		"price": 249
+	}
+}

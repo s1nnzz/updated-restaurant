@@ -55,11 +55,25 @@ const Login: Component = () => {
 	};
 
 	return (
-		<>
-			<Form FormDetails={formDetails} SubmitCallback={onSubmit} />
-			<A href="/register">No account? Register here</A>
-			<A href="/forgot">Want to reset your password? Click here</A>
-		</>
+		<div class="page-wrapper">
+			<div class="flex-center">
+				<div class="container-narrow">
+					<div class="text-center spacer-md">
+						<h1 class="section-header">Sign In</h1>
+						<p class="body-text">Welcome back to Luxe Dining</p>
+					</div>
+					<Form FormDetails={formDetails} SubmitCallback={onSubmit} />
+					<div class="text-center spacer-md">
+						<p class="body-text">
+							<A href="/register">No account? Register here</A>
+						</p>
+						<p class="body-text">
+							<A href="/forgot">Forgot your password?</A>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	);
 };
 

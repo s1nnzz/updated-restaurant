@@ -90,16 +90,24 @@ const Bookings: Component = () => {
 	};
 
 	return (
-		<main>
+		<div class="page-wrapper">
 			<Show
 				when={!loading() && !loadingBookings()}
-				fallback={<main>Loading...</main>}
+				fallback={
+					<div class="flex-center">
+						<p class="body-text">Loading...</p>
+					</div>
+				}
 			>
 				<Show
 					when={view() === "list"}
 					fallback={
-						<div>
-							<h1>Create New Booking</h1>
+						<div class="container-narrow">
+							<div class="text-center spacer-lg">
+								<h1 class="section-header">
+									Create New Reservation
+								</h1>
+							</div>
 							<BookingForm
 								onSubmit={handleCreateBooking}
 								onCancel={() => setView("list")}
@@ -114,7 +122,7 @@ const Bookings: Component = () => {
 					/>
 				</Show>
 			</Show>
-		</main>
+		</div>
 	);
 };
 

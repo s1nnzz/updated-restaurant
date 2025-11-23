@@ -42,11 +42,11 @@ const Forgot: Component = () => {
 			})
 			.then((json) => {
 				console.log(json);
-				if (json.resetToken) {
-					setResetToken(json.resetToken);
+				if (json.token) {
+					setResetToken(json.token);
 				}
 				if (json.message) {
-					setFlash(json.message);
+					// setFlash(json.message);
 				}
 			});
 	};

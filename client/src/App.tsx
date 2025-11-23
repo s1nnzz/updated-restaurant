@@ -20,7 +20,9 @@ import Bookings from "./pages/Bookings";
 import Nav from "./components/common/Nav";
 import Flash from "./components/common/Flash";
 
-import "./style.css";
+import "./design-system.css";
+import "./components.css";
+import Order from "./pages/Order";
 
 const App: Component = () => {
 	const [auth, setAuth] = createSignal(false);
@@ -46,6 +48,12 @@ const App: Component = () => {
 	createEffect(() => {
 		checkAuth();
 	});
+
+	function AddToCart(itemName: string) {
+		// TODO: Implement cart functionality
+		console.log(`Added ${itemName} to cart`);
+	}
+
 	return (
 		<FlashProvider>
 			<AuthContext.Provider
@@ -75,6 +83,10 @@ const App: Component = () => {
 					<Route path="/logout" component={Logout} />
 					<Route path="/delete" component={Delete} />
 					<Route path="/bookings" component={Bookings} />
+					<Route
+						path="/order"
+						component={() => <Order addToCart={AddToCart} />}
+					/>
 					<Route path="*404" component={NotFound} />
 				</Router>
 			</AuthContext.Provider>

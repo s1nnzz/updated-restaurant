@@ -6,8 +6,8 @@ const Flash: Component = () => {
 
 	return (
 		<Show when={flash() !== ""}>
-			<div class="flash-holder">
-				<h3 class="flash-text">{flash()}</h3>
+			<div class="notification-glass">
+				<p class="notification-text">{flash()}</p>
 			</div>
 		</Show>
 	);

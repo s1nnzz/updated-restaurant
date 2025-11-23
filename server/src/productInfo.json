@@ -1,62 +1,118 @@
 {
 	"Margherita Pizza": {
-		"price": 1299
+		"price": 1299,
+		"category": "Pizza"
 	},
 	"Pepperoni Pizza": {
-		"price": 1499
+		"price": 1499,
+		"category": "Pizza"
 	},
 	"Vegetarian Pizza": {
-		"price": 1399
+		"price": 1399,
+		"category": "Pizza"
+	},
+	"BBQ Chicken Pizza": {
+		"price": 1599,
+		"category": "Pizza"
 	},
 	"Caesar Salad": {
-		"price": 899
+		"price": 899,
+		"category": "Salads"
 	},
 	"Greek Salad": {
-		"price": 999
+		"price": 999,
+		"category": "Salads"
+	},
+	"Caprese Salad": {
+		"price": 949,
+		"category": "Salads"
 	},
 	"Spaghetti Carbonara": {
-		"price": 1599
+		"price": 1599,
+		"category": "Pasta"
 	},
 	"Lasagna": {
-		"price": 1699
+		"price": 1699,
+		"category": "Pasta"
+	},
+	"Penne Arrabbiata": {
+		"price": 1399,
+		"category": "Pasta"
 	},
 	"Tiramisu": {
-		"price": 699
+		"price": 699,
+		"category": "Desserts"
 	},
 	"Cheesecake": {
-		"price": 799
+		"price": 799,
+		"category": "Desserts"
+	},
+	"Chocolate Brownie": {
+		"price": 649,
+		"category": "Desserts"
+	},
+	"Ice Cream": {
+		"price": 499,
+		"category": "Desserts"
 	},
 	"Garlic Bread": {
-		"price": 499
+		"price": 499,
+		"category": "Starters"
 	},
 	"Bruschetta": {
-		"price": 599
+		"price": 599,
+		"category": "Starters"
 	},
 	"Chicken Wings": {
-		"price": 999
+		"price": 999,
+		"category": "Starters"
+	},
+	"Mozzarella Sticks": {
+		"price": 699,
+		"category": "Starters"
+	},
+	"Classic Burger": {
+		"price": 1199,
+		"category": "Mains"
 	},
 	"Fish and Chips": {
-		"price": 1399
+		"price": 1399,
+		"category": "Mains"
 	},
-	"Burger": {
-		"price": 1199
+	"Grilled Chicken": {
+		"price": 1499,
+		"category": "Mains"
 	},
 	"Fries": {
-		"price": 399
+		"price": 399,
+		"category": "Sides"
 	},
 	"Onion Rings": {
-		"price": 499
+		"price": 499,
+		"category": "Sides"
+	},
+	"Coleslaw": {
+		"price": 349,
+		"category": "Sides"
 	},
 	"Cola": {
-		"price": 299
+		"price": 299,
+		"category": "Drinks"
 	},
 	"Lemonade": {
-		"price": 299
+		"price": 299,
+		"category": "Drinks"
 	},
 	"Coffee": {
-		"price": 349
+		"price": 349,
+		"category": "Drinks"
 	},
 	"Tea": {
-		"price": 249
+		"price": 249,
+		"category": "Drinks"
+	},
+	"Orange Juice": {
+		"price": 349,
+		"category": "Drinks"
 	}
 }

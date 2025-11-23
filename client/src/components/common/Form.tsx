@@ -22,19 +22,21 @@ const Form: Component<FormProps> = (props) => {
 
 	return (
 		<form
+			class="form-glass"
 			onSubmit={props.SubmitCallback ? props.SubmitCallback : doNothing}
 			autocomplete="off"
 		>
 			<For each={Object.entries(props.FormDetails)}>
 				{([key, val]) => (
 					<Show when={key !== "$submit"}>
-						<div>
+						<div class="form-group">
 							<Show when={(val as FormField).Label}>
-								<label for={key}>
+								<label for={key} class="form-label">
 									{(val as FormField).Label}
 								</label>
 							</Show>
 							<input
+								class="input-glass"
 								type={(val as FormField).Type || "text"}
 								name={key}
 								id={key}
@@ -43,7 +45,7 @@ const Form: Component<FormProps> = (props) => {
 					</Show>
 				)}
 			</For>
-			<button type="submit">
+			<button type="submit" class="btn-primary">
 				{(props.FormDetails["$submit"] as string) || "Submit"}
 			</button>
 		</form>
